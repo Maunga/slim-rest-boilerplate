@@ -13,7 +13,7 @@ A PHP-based user-authenticated REST API boilerplate by [John Endicott](https://w
 * `cd slim-rest-boilerplate` change working directory to root project folder
 * `composer install` install dependencies
 * Edit *./phinx.yml* and *./app/Config/Config.php* with MySQL configurations
-* `./vendor/bin/phinx migrate` run initial database migration
+* `./vendor/bin/phinx migrate` run initial database migration OR `php vendor/robmorgan/phinx/bin/phinx migrate`
 
 ## Run
 * `cd public` change working directory to public folder and run `localhost -S localhost:8000` via command line
